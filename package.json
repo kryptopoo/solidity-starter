@@ -1,17 +1,12 @@
 {
-  "name": "can-crypto-badge-sbt",
+  "name": "solidity-starter",
   "version": "1.0.0",
-  "description": "CAN CryptoBadge Soulbound Token",
+  "description": "project template to start developing solidity smart contracts",
   "main": "hardhat.config.js",
   "scripts": {
     "compile": "hardhat compile",
-    "test": "hardhat test",
-    "test-coverage": "hardhat coverage",
-    "contract-size": "hardhat size-contracts",
-    "contract-check": "hardhat check",
+    "test": "hardhat test"
     "prettier": "prettier --write **/*.js contracts/**/*.sol",
-    "contract-verify": "hardhat verify",
-    "deploy-mumbai": "hardhat run scripts/deploy.js --network mumbai"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^1.0.4",
@@ -54,7 +49,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@git.baikal.io:can/can-crypto-badge-sbt.git"
+    "url": "git@github.com:kryptopoo/solidity-starter.git"
   },
   "keywords": [
     "sbt",
