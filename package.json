@@ -5,8 +5,9 @@
   "main": "hardhat.config.js",
   "scripts": {
     "compile": "hardhat compile",
-    "test": "hardhat test"
-    "prettier": "prettier --write **/*.js contracts/**/*.sol",
+    "test": "hardhat test",
+    "contract-check": "hardhat check",
+    "prettier": "prettier --write **/*.js contracts/**/*.sol"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^1.0.4",
